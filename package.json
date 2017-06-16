@@ -4,7 +4,7 @@
   "description": "fisher-yates shuffle for immutable.js lists",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "standard-readme && xo && ava"
   },
   "keywords": [
     "immutable",
@@ -19,12 +19,17 @@
   "respository": "t-obi/immutable-shuffle",
   "devDependencies": {
     "ava": "^0.19.1",
-    "immutable": "^3.8.1"
+    "immutable": "^3.8.1",
+    "standard-readme": "^2.0.2",
+    "xo": "^0.18.2"
   },
   "peerDependencies": {
     "immutable": "^3.0.0"
   },
   "ava": {
     "verbose": true
+  },
+  "xo": {
+    "space": true
   }
 }
