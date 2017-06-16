@@ -16,7 +16,7 @@
   ],
   "author": "tkloht",
   "license": "MIT",
-  "respository": "t-obi/immutable-shuffle",
+  "repository": "t-obi/immutable-shuffle",
   "devDependencies": {
     "ava": "^0.19.1",
     "immutable": "^3.8.1",
