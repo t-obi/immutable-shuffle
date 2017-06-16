@@ -1,0 +1,30 @@
+{
+  "name": "immutable-shuffle",
+  "version": "1.0.0",
+  "description": "fisher-yates shuffle for immutable.js lists",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "immutable",
+    "immutable.js",
+    "shuffle",
+    "fisher",
+    "yates",
+    "fisher-yates"
+  ],
+  "author": "tkloht",
+  "license": "MIT",
+  "respository": "t-obi/immutable-shuffle",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "immutable": "^3.8.1"
+  },
+  "peerDependencies": {
+    "immutable": "^3.0.0"
+  },
+  "ava": {
+    "verbose": true
+  }
+}
