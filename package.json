@@ -1,6 +1,6 @@
 {
   "name": "immutable-shuffle",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "fisher-yates shuffle for immutable.js lists",
   "main": "index.js",
   "scripts": {
