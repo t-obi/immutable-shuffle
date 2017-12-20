@@ -3,14 +3,13 @@ const shuffle = require('./index');
 
 run([100, 1000, 10000, 100000, 1000000]);
 
-
 function run(lengths) {
   lengths.forEach(length => {
     const list = Immutable.fromJS([...Array(length).keys()]);
     console.log(`test for array of ${length} elements`);
     naive(list);
     fisherYates(list);
-  })
+  });
 }
 
 function naive(list) {
