@@ -15,12 +15,12 @@ function run(lengths) {
 
 function naive(list) {
   console.time('naive');
-  const shuffled = list.sortBy(Math.random);
+  list.sortBy(Math.random);
   console.timeEnd('naive');
 }
 
 function fisherYates(list) {
   console.time('fisher-yates');
-  const shuffled = shuffle(list);
+  shuffle(list);
   console.timeEnd('fisher-yates');
 }
